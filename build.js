@@ -18,8 +18,8 @@ function getCurrentPlatform(){
 builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'helioslauncher',
-        productName: 'Helios Launcher',
+        appId: 'givrelauncher',
+        productName: 'GivreLauncher',
         artifactName: '${productName}.${ext}',
         copyright: 'Copyright © 2018-2019 Daniel Scalzi',
         directories: {
